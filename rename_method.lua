@@ -8,6 +8,7 @@ function Account:new (o)
 end
 
 function Account:deposit2 (v)
+    local abc = self.balance + 1
     self.balance = self.balance + v
 end
 
